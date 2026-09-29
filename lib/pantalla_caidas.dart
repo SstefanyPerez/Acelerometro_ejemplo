@@ -39,12 +39,9 @@ class _PantallaCaidasState extends State<PantallaCaidas> {
 
       if (_estado != 'monitoreando') return;
 
-      // Paso 1: caída libre, la aceleración baja a casi 0
       if (total < umbralCaidaLibre) {
         _momentoCaidaLibre = DateTime.now();
       }
-
-      // Paso 2: impacto fuerte poco después de la caída libre
       if (total > umbralImpacto &&
           _momentoCaidaLibre != null &&
           DateTime.now().difference(_momentoCaidaLibre!) < tiempoMaximo) {
