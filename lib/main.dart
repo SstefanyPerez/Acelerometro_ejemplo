@@ -1,4 +1,5 @@
 import 'package:acelerometro_ejemplo/pantalla_bolita.dart';
+import 'package:acelerometro_ejemplo/pantalla_caidas.dart';
 import 'package:acelerometro_ejemplo/pantalla_muneco.dart';
 import 'package:flutter/material.dart';
 
@@ -55,6 +56,15 @@ class MenuPage extends StatelessWidget {
                 onPressed: () => Navigator.push(
                   context,
                   MaterialPageRoute(builder: (_) => const PantallaMuneco()),
+                ),
+              ),
+              const SizedBox(height: 16),
+              FilledButton.icon(
+                icon: const Icon(Icons.elderly),
+                label: const Text('Detector de caídas'),
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const PantallaCaidas()),
                 ),
               ),
             ],
