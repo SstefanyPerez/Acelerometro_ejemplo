@@ -1,11 +1,11 @@
 {
-    "name": "acelerometro_ejemplo",
-    "short_name": "acelerometro_ejemplo",
+    "name": "Acelerómetro y Giroscopio",
+    "short_name": "Sensores",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Demo de acelerómetro y giroscopio con Flutter y sensors_plus.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -1,4 +1,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        SENSORES Y PERMISOS EN ANDROID
+        Leer el acelerómetro y el giroscopio NO necesita un permiso en tiempo
+        de ejecución: no son datos "peligrosos" como la cámara o la ubicación,
+        así que Android nunca muestra un diálogo para ellos.
+
+        uses-feature avisa a Google Play que la app usa estos sensores.
+        required="false" permite instalarla en equipos que no los tengan;
+        en ese caso sensors_plus envía un error "NO_SENSOR" y la app lo muestra.
+    -->
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="false" />
+
+    <!--
+        Desde Android 12 (API 31) la lectura de sensores se limita a 200 Hz.
+        Solo si necesitáramos más frecuencia habría que declarar este permiso
+        (es "normal": se concede al instalar, sin diálogo). Nuestras demos usan
+        como máximo gameInterval (~50 Hz), así que lo dejamos comentado.
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    -->
+
     <application
         android:label="acelerometro_ejemplo"
         android:name="${applicationName}"
