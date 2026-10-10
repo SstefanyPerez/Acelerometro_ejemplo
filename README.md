@@ -20,21 +20,13 @@ Si el permiso está negado, cada demo muestra una vista de **"Permiso denegado"*
 
 ## Capturas
 
-<!-- Reemplazar por las capturas reales (por ejemplo, en docs/capturas/). -->
-
 | Menú | Permisos | Permiso denegado |
-|---|---|---|
-| <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/c93ea037-d2d8-4ec9-b618-7d6e6b80ba59" />
- | <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/254d5575-752e-41db-8ad9-798317a86159" />
- | `[captura permiso denegado]` |
+|:---:|:---:|:---:|
+| <img width="220" alt="Menú principal" src="https://github.com/user-attachments/assets/c93ea037-d2d8-4ec9-b618-7d6e6b80ba59" /> | <img width="220" alt="Pantalla de permisos" src="https://github.com/user-attachments/assets/254d5575-752e-41db-8ad9-798317a86159" /> | _Captura pendiente_ |
 
 | Bolita | Muñequito | Giroscopio | Caídas |
-|---|---|---|---|
-| <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/97a492a8-a438-473b-8771-26440af86264" />
- | <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/15c7e462-4db1-4d63-8d50-13a1d07fcbfd" />
- | <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/d8b75899-f715-4cfe-b148-38082dce9b68" />
- | <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/8acb63fd-11c8-44b8-8d0c-0cecda8a9bdc" />
- |
+|:---:|:---:|:---:|:---:|
+| <img width="180" alt="Demo de la bolita" src="https://github.com/user-attachments/assets/97a492a8-a438-473b-8771-26440af86264" /> | <img width="180" alt="Demo del muñequito" src="https://github.com/user-attachments/assets/15c7e462-4db1-4d63-8d50-13a1d07fcbfd" /> | <img width="180" alt="Demo del giroscopio" src="https://github.com/user-attachments/assets/d8b75899-f715-4cfe-b148-38082dce9b68" /> | <img width="180" alt="Detector de caídas" src="https://github.com/user-attachments/assets/8acb63fd-11c8-44b8-8d0c-0cecda8a9bdc" /> |
 
 ## Cómo ejecutar
 
