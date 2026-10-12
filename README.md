@@ -22,7 +22,7 @@ Si el permiso está negado, cada demo muestra una vista de **"Permiso denegado"*
 
 | Menú | Permisos |
 |:---:|:---:|:---:|
-| <img width="220" alt="Menú principal" src="https://github.com/user-attachments/assets/c93ea037-d2d8-4ec9-b618-7d6e6b80ba59" /> | <img width="220" alt="Pantalla de permisos" src="https://github.com/user-attachments/assets/254d5575-752e-41db-8ad9-798317a86159" /> | _Captura pendiente_ |
+| <img width="220" alt="Menú principal" src="https://github.com/user-attachments/assets/c93ea037-d2d8-4ec9-b618-7d6e6b80ba59" /> | <img width="220" alt="Pantalla de permisos" src="https://github.com/user-attachments/assets/254d5575-752e-41db-8ad9-798317a86159" /> 
 
 | Bolita | Muñequito | Giroscopio | Caídas |
 |:---:|:---:|:---:|:---:|
